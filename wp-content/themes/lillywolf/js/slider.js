@@ -8,6 +8,7 @@
 ( function( $ ) {
 	
 	console.log("js happened!");
+	$( document ).write("js happened good job");
 	
 	// FeaturedSlider: object instance.
 	$.featuredslider = function( el, options ) {
