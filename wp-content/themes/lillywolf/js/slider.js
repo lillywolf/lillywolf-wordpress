@@ -6,6 +6,9 @@
  */
 /* global DocumentTouch:true,setImmediate:true,featuredSliderDefaults:true,MSGesture:true */
 ( function( $ ) {
+	
+	console.log("js happened!");
+	
 	// FeaturedSlider: object instance.
 	$.featuredslider = function( el, options ) {
 		var slider = $( el ),
