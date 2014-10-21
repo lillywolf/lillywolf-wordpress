@@ -8,9 +8,10 @@ function add_my_script() {
     // );
 	wp_enqueue_script(
         'bg',
-        get_template_directory_uri() . '/js/background.js',
+        'http://lillywolf-wordpress.herokuapp.com/wp-content/themes/lillywolf/js/background.js',
         array('jquery')
     );
+	
 }
 
 add_action( 'wp_enqueue_scripts', 'add_my_script' );
