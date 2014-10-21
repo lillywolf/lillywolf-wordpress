@@ -1,6 +1,8 @@
 jQuery(document).ready(function($) {
 	
-	console.log("found me!");
+	$("#content").text("HI JQUERY");
+	
+	// console.log("found me!");
 	
 	// var uiHelper = new UIHelper();
 	// uiHelper.watchClipRect("content");
