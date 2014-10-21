@@ -1,4 +1,6 @@
 jQuery(document).ready(function($) {
+	console.log("found me!");
+	
 	var uiHelper = new UIHelper();
 	uiHelper.watchClipRect("content");
 	uiHelper.drawSkinnyDiagonals("rightPatterns");
