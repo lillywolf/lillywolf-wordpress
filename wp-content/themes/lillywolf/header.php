@@ -2,6 +2,7 @@
 <head>
 	<title>Lilly Wolf</title>
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+	<?php wp_head(); ?>
 </head>
 <body>
 	
@@ -15,4 +16,5 @@
 			<div id="logo">LILLYWOLF</div>
 			<div id="subtext">WEIRD POP</div>
 		</div>
+		
 				
