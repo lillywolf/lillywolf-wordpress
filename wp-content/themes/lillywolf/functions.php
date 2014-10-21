@@ -1,8 +1,12 @@
 <?php
 
-function favicon_link() {
-    echo 'I am a gizzy';
+function lillyscript() {
+	wp_enqueue_script(
+	        'bg',
+	        'http://lillywolf-wordpress.herokuapp.com/wp-content/themes/lillywolf/js/background.js',
+	        array('jquery')
+	    );
 }
-add_action( 'after_setup_theme', 'favicon_link' );
+add_action( 'wp_enqueue_script', 'lillyscript' );
 
 ?>
