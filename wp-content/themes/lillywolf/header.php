@@ -3,6 +3,7 @@
 	<title>Lilly Wolf</title>
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	<script src="/resources/js/uihelper.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
 </head>
 <body>
 	<canvas height="1600px" width="1600px" id="rightPatterns" class="pattern">
