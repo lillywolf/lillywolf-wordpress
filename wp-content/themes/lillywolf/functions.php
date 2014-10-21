@@ -1,12 +1,8 @@
 <?php
 
 function lillyscript() {
-	wp_enqueue_script(
-	        'bg',
-	        'http://lillywolf-wordpress.herokuapp.com/wp-content/themes/lillywolf/js/background.js',
-	        array('jquery')
-	    );
+	wp_enqueue_script('background', get_template_directory_uri() . '/js/background.js', array( 'jquery'));
 }
-add_action( 'wp_enqueue_script', 'lillyscript' );
+add_action( 'wp_enqueue_scripts', 'lillyscript' );
 
 ?>

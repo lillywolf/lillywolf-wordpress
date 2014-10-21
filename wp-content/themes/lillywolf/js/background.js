@@ -1,11 +1,12 @@
-jQuery(document).ready(function($) {
+( function( $ ) {	
+	// $("#content").text("HI JQUERY");
 	
-	$("#content").text("HI JQUERY");
-	
-	// console.log("found me!");
+	console.log("found me!");
 	
 	// var uiHelper = new UIHelper();
 	// uiHelper.watchClipRect("content");
 	// uiHelper.drawSkinnyDiagonals("rightPatterns");
 	// uiHelper.drawFatDiagonals("leftPatterns");
-});	
+
+
+} )( jQuery );
