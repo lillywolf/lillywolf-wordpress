@@ -1,5 +1,7 @@
 <?php
 
+
+wp_enqueue_script('jquery');
 add_action( 'wp_enqueue_scripts', 'add_my_script' );
 function add_my_script() {
     // wp_enqueue_script(
